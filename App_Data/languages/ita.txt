@@ -1,0 +1,433 @@
+<languagename>italiano</languagename>
+<sent>inallthepages.choose.language@@Lingua sito</sent>
+<sent>inallthepages.choose.currency@@Valuta</sent>
+<sent>inallthepages.menu.categories@@Categorie</sent>
+<sent>inallthepages.menu.newsletter@@Newsletter</sent>
+<sent>inallthepages.menu.pages@@Pagine</sent>
+<sent>inallthepages.menu.search@@Ricerca</sent>
+<sent>inallthepages.you.are.here@@Sei qui</sent>
+<sent>inallthepages.you.are.here.home@@Homepage</sent>
+<sent>inallthepages.menu.viewed.products@@Ultimi prodotti visti</sent>
+<sent>inallthepages.cookiebar.more.info@@Più info</sent>
+<sent>product.tab.features@@Caratteristiche</sent>
+<sent>product.tab.name@@Nome</sent>
+<sent>product.tab.info@@Richiedi info</sent>
+<sent>product.request.info.subject@@Oggetto</sent>
+<sent>product.request.info.subject.predefined@@Richiesta info sul prodotto con codice</sent>
+<sent>product.request.info.email@@Tua email</sent>
+<sent>product.request.info.body@@Testo</sent>
+<sent>product.request.info.name@@Tuo nome</sent>
+<sent>product.request.info.sendbutton@@Invia modulo</sent>
+<sent>product.request.info.invalid.email.format@@Indirizzo email non valido</sent>
+<sent>product.request.info.missing.name@@Campo Nome vuoto</sent>
+<sent>product.request.info.missing.body@@Campo Texto vuoto</sent>
+<sent>product.request.info.missing.subject@@Campo Oggetto vuoto</sent>
+<sent>product.request.info.missing.consent@@Il consenso circa il trattamento dei dati personali è necessario.</sent>
+<sent>product.request.info.error.sending@@Problema invio messaggio. Scrivici inviando una mail al nostro indirizzo e-mail</sent>
+<sent>product.request.info.message.sent@@Messaggio inviato. Riceverai al più presto una risposta.</sent>
+<sent>product.tab.other.images@@Altre immagini</sent>
+<sent>product.privacy.disclosures@@Consento il trattamento dei miei dati personali in conformità con il decreto legislativo n. 196/2003 sulla privacy.</sent>
+<sent>product.label.products@@Prodotti</sent>
+<sent>product.artcode@@Codice</sent>
+<sent>product.brand@@Marca</sent>
+<sent>product.description@@Descrizione</sent>
+<sent>product.price@@Prezzo</sent>
+<sent>product.related.products@@Prodotti correlati</sent>
+<sent>contactspage.request.info.subject@@Oggetto</sent>
+<sent>contactspage.request.info.subject.predefined@@Messaggio da modulo contatti</sent>
+<sent>contactspage.request.info.email@@Tua email</sent>
+<sent>contactspage.request.info.body@@Testo</sent>
+<sent>contactspage.request.info.name@@Tuo nome</sent>
+<sent>contactspage.request.info.sendbutton@@Invia modulo</sent>
+<sent>contactspage.request.info.invalid.email.format@@Indirizzo email non valido</sent>
+<sent>contactspage.request.info.missing.name@@Campo Nome vuoto</sent>
+<sent>contactspage.request.info.missing.body@@Campo Texto vuoto</sent>
+<sent>contactspage.request.info.missing.subject@@Campo Oggetto vuoto</sent>
+<sent>contactspage.request.info.error.sending@@Problema invio messaggio. Scrivici inviando una mail al nostro indirizzo e-mail</sent>
+<sent>contactspage.request.info.message.sent@@Messaggio inviato. Riceverai al più presto una risposta.</sent>
+<sent>contactspage.request.info.missing.consent@@Il consenso circa il trattamento dei dati personali è necessario.</sent>
+<sent>contactspage.privacy.disclosures@@Consento il trattamento dei miei dati personalli in conformità con il decreto legislativo n. 196/2003 sulla privacy.</sent>
+<sent>newsletter.title@@Newsletter</sent>
+<sent>newsletter.you.are.here.newsletter@@Newsletter</sent>
+<sent>newsletter.mailinglistbox.label.subscribe@@ISCRIVITI</sent>
+<sent>newsletter.mailinglistbox.label.unsubscribe@@DISISCRIVITI</sent>
+<sent>newsletter.boxtitle@@Newsletter</sent>
+<sent>newsletter.email.body.confirm.registration@@Per confermare la sottoscrizione alla newsletter cliccare sul link seguente o copiarlo e incollarlo nella barra degli indirizzi del tuo browser</sent>
+<sent>newsletter.email.subject.confirm.registration@@Confermare la sottoscrizione alla newsletter di</sent>
+<sent>newsletter.message.confirm.registration@@Confermare la sottoscrizione alla newsletter cliccando sul link contenuto nella mail che ti è stata inviata.</sent>
+<sent>newsletter.message.problem.unsubscription@@Nessuna registrazione con questo indirizzo email</sent>
+<sent>newsletter.message.successfull.subscribed@@Ti sei iscritto con successo alla nostra newsletter</sent>
+<sent>newsletter.message.successfull.unsubscribed@@Ora sei disiscritto alla newsletter.</sent>
+<sent>newsletter.warning.email.not.valid@@Indirizzo email non valido</sent>
+<sent>newsletter.warning.no.subscription.present.with.this.email@@Errore, nessuna sottoscrizione con questa email</sent>
+<sent>newsletter.warning.you.already.registered@@Sei già registrato alla nostra newsletter!</sent>
+<sent>preview.products.label.brand@@Marca</sent>
+<sent>preview.products.orderbyselect.order.by@@Ordina per</sent>
+<sent>preview.products.orderbyselect.order.by.price.ascending@@Prezzo crescente</sent>
+<sent>preview.products.orderbyselect.order.by.price.descending@@Prezzo decrescente</sent>
+<sent>preview.products.tooltip.see.details@@{0}, clicca per dettagli</sent>
+<sent>preview.subcategories@@Sottocategorie</sent>
+<sent>preview.paging.label.page@@pagina</sent>
+<sent>problem.label.error.has.occurred@@Si è verificato un problema.</sent>
+<sent>resultsearch.you.are.here.search@@Ricerca</sent>
+<sent>resultsearch.label.search.results@@Risultati ricerca</sent>
+<sent>resultsearch.label.for@@per</sent>
+<sent>resultsearch.warning.type.more.characters.to.find@@Inserire più caratteri come termine da cercare.</sent>
+<sent>resultsearch.title@@Search</sent>
+<sent>security.type.not.allowed.chars@@oops.. hai digitato uno o più caratteri non consentiti.</sent>
+<sent>common.label.starting.from.before.price@@a partire da</sent>
+<sent>common.label.price.tax.included@@tasse incluse</sent>
+<sent>common.label.price.tax.excluded@@tasse escluse</sent>
+<sent>common.deleted@@eliminato</sent>
+<sent>common.cookie.bar@@barra cookie</sent>
+<sent>common.button.delete@@elimina</sent>
+<sent>common.save.changes@@salva modifiche</sent>
+<sent>common.data.saved@@dati salvati</sent>
+<sent>common.id@@ID</sent>
+<sent>common.delete@@elimina</sent>
+<sent>common.product.with.id@@prodotto con ID</sent>
+<sent>common.edit@@modifica</sent>
+<sent>admin.product.additional.images@@additional images</sent>
+<sent>admin.product.default.metatag.description@@Stai cercando {product_brand} {product_category} {product_name} ? Lo trovi sul nostro sito {site_name}.</sent>
+<sent>admin.product.starting.from@@a partire da questo prezzo</sent>
+<sent>admin.product.panel.additional.fields@@campi aggiuntivi</sent>
+<sent>admin.product.availability@@disponibilità</sent>
+<sent>admin.product.brand@@marca</sent>
+<sent>admin.product.button.main.features@@caratteristiche principali</sent>
+<sent>admin.product.button.large.images@@immagini prodotto</sent>
+<sent>admin.product.button.open.product.page@@vedi pagina prodotto lato negozio</sent>
+<sent>admin.product.button.quantity.discount@@SCONTI QUANTITA'</sent>
+<sent>admin.product.button.related.articles@@prodotti correlati</sent>
+<sent>admin.product.button.save@@SALVA MODIFICHE</sent>
+<sent>admin.product.button.save.and.continue@@salva e continua</sent>
+<sent>admin.product.category@@categoria</sent>
+<sent>admin.product.code@@codice</sent>
+<sent>admin.product.confirm.deletion@@il prodotto sarà cancellato. confermi?</sent>
+<sent>admin.product.delivery@@consegna</sent>
+<sent>admin.product.delivery.days@@giorni</sent>
+<sent>admin.product.description@@Descrizione</sent>
+<sent>admin.product.discountpercent@@sconto</sent>
+<sent>admin.product.error.code.exists@@un prodotto con questo codice esiste già</sent>
+<sent>admin.product.error.missing.name.in.language@@inserire il nome product nella lingua</sent>
+<sent>admin.product.error.must.create.one.category@@è necessario creare almeno una categoria</sent>
+<sent>admin.product.explanation.about.pricelist0@@(il listino0 è il listino pubblico)</sent>
+<sent>admin.product.featured.in.homepage@@in evidenza in hompage</sent>
+<sent>admin.product.image@@immagine</sent>
+<sent>admin.product.label.tax.not.appliable@@tassa non applicabile</sent>
+<sent>admin.product.insert.a.number.for.discount.field@@inserire un numero nel campo sconto</sent>
+<sent>admin.product.insert.a.number.for.price.field@@inserire un numero nel campo prezzo</sent>
+<sent>admin.product.insert.a.number.for.stock.field@@inserire un numero nel campo stock</sent>
+<sent>admin.product.insert.a.number.for.weigth.field@@inserire un numero nel campo peso</sent>
+<sent>admin.product.metatag.description@@METATAG description</sent>
+<sent>admin.product.metatag.keywords@@METATAG keywords</sent>
+<sent>admin.product.name@@nome</sent>
+<sent>admin.product.path.on.server@@percorso sul server</sent>
+<sent>admin.product.price@@prezzo</sent>
+<sent>admin.product.pricelist@@listino</sent>
+<sent>admin.product.pricelists.indipendent@@listino indipendente</sent>
+<sent>admin.product.pricelists.price@@prezzo</sent>
+<sent>admin.product.prices.and.discounts@@prezzo e sconto</sent>
+<sent>admin.product.prices.discount@@sconto</sent>
+<sent>admin.product.prices.price@@prezzo</sent>
+<sent>admin.product.product.detail@@dettaglio prodotto</sent>
+<sent>admin.product.stock@@stock</sent>
+<sent>admin.product.tax.profile@@profilo tassazione</sent>
+<sent>admin.product.technical.spec@@specifiche tecniche</sent>
+<sent>admin.product.used@@usato</sent>
+<sent>admin.product.visible@@visibile</sent>
+<sent>admin.product.weight@@peso</sent>
+<sent>admin.product.where.you.are.product@@prodotto con idart</sent>
+<sent>admin.product.where.you.are.product.id@@prodotto con ID</sent>
+<sent>admin.product.where.you.are.products@@prodotti</sent>
+<sent>admin.articles.button.add.product@@AGGIUNGI PRODOTTO</sent>
+<sent>admin.articles.button.delete.selected@@cancella selezionati</sent>
+<sent>admin.articles.button.select.all@@seleziona tutti</sent>
+<sent>admin.articles.button.unselect.all@@deseleziona tutti</sent>
+<sent>admin.articles.filter.any.availability@@qualsiasi</sent>
+<sent>admin.articles.filter.any.quantity@@qualsiasi categoria</sent>
+<sent>admin.articles.filter.by.code@@nel codice prodotto</sent>
+<sent>admin.articles.filter.by.name@@nel nome prodotto</sent>
+<sent>admin.articles.filter.order.by.id@@ID prodotto</sent>
+<sent>admin.articles.filter.order.by.name@@nome prodotto</sent>
+<sent>admin.articles.label.product.list@@lista prodotti</sent>
+<sent>admin.articles.results.creation.date@@data creazione</sent>
+<sent>admin.articles.results.delete@@elimina</sent>
+<sent>admin.articles.results.image@@immagine</sent>
+<sent>admin.articles.results.modify@@modifica</sent>
+<sent>admin.articles.results.name@@nome</sent>
+<sent>admin.articles.results.product.code@@codice</sent>
+<sent>admin.articles.results.product.id@@ID</sent>
+<sent>admin.articles.results.select@@seleziona</sent>
+<sent>admin.articles.results.stock@@stock</sent>
+<sent>admin.button.update@@aggiorna</sent>
+<sent>admin.categories.button.new.category@@crea nuova categoria</sent>
+<sent>admin.categories.category.deleted@@categoria cancellata</sent>
+<sent>admin.categories.invisible@@invisibile</sent>
+<sent>admin.categories.list.delete@@elimina</sent>
+<sent>admin.categories.list.id.category@@ID</sent>
+<sent>admin.categories.list.image@@immagine categoria</sent>
+<sent>admin.categories.list.modify@@modifica</sent>
+<sent>admin.categories.list.name@@nome categoria</sent>
+<sent>admin.categories.list.visible@@visibile</sent>
+<sent>admin.categories.visible@@visibile</sent>
+<sent>admin.categories.warning.allsubcategories.deleted@@tutte le sottocategorie incluse in questa categoria e relativi prodotti saranno cancellati. procedi?</sent>
+<sent>admin.categories.whereyouare.categories@@categorie</sent>
+<sent>admin.category.all.subcategories.made.invisible@@invisibili</sent>
+<sent>admin.category.all.subcategories.made.visible@@visibili</sent>
+<sent>admin.category.button.save@@salva</sent>
+<sent>admin.category.category.name@@nome</sent>
+<sent>admin.category.category.visible@@visibile</sent>
+<sent>admin.category.categorylist.no.parent.category@@NESSUNA CATEGORIA PADRE</sent>
+<sent>admin.category.choose.image.from.disk@@scegli immagine dal tuo hard-disk</sent>
+<sent>admin.category.image@@immagine</sent>
+<sent>admin.category.parent.category@@categoria padre</sent>
+<sent>admin.category.path@@percorso sul server</sent>
+<sent>admin.category.updated@@categoria aggiornata</sent>
+<sent>admin.category.warning.all.subcategories.changed.visiblity@@N.B. anche tutte le sottocategorie incluse in questa categoria sono ora {0}</sent>
+<sent>admin.category.warning.visible@@visibili</sent>
+<sent>admin.category.whereyouare.categories@@categorie</sent>
+<sent>admin.category.whereyouare.categoryid@@categoria con ID</sent>
+<sent>admin.category.whereyouare.new.category@@nuova categoria</sent>
+<sent>admin.category.metadescription@@metatag description per motori di ricerca</sent>
+<sent>admin.category.default.metatag.keywords@@{category_name}, {site_name}</sent>
+<sent>admin.category.default.metatag.description@@Sta cercando {category_name}? Lo trovi sul nostro sito web {site_name}.</sent>
+<sent>admin.chooselanguages.confirm.new.language@@se aggiungi una nuova lingua, questa non potrà essere più eliminata. procedere?</sent>
+<sent>admin.cookiebar.buttonmessage@@testo pulsante accettazine</sent>
+<sent>admin.cookiebar.cookie.policy@@cookie policy</sent>
+<sent>admin.cookiebar.error.messageincookiebar.can.cantain.only.letters.and.numbers@@il campo MESSAGGIO NELLA BARRA COOKIE  può contenere solo lettere e numeri</sent>
+<sent>admin.cookiebar.message@@messaggio nel banner cookie</sent>
+<sent>admin.cookiebar.show.bar@@mostra banner cookie</sent>
+<sent>admin.currencies.button.add.new@@AGGIUNGI</sent>
+<sent>admin.currencies.currency.code@@simbolo valuta</sent>
+<sent>admin.currencies.decimal.digits@@cifre decimali</sent>
+<sent>admin.currencies.exchange@@cambio nuova valuta/valuta principale</sent>
+<sent>admin.currencies.id@@ID</sent>
+<sent>admin.currencies.insert.new.currency@@inserisci nuova valuta</sent>
+<sent>admin.currencies.linktext.to.iso.codes@@3 caratteri ISO-4217</sent>
+<sent>admin.currencies.list.delete@@elimina</sent>
+<sent>admin.currencies.list.edit@@modifica</sent>
+<sent>admin.currencies.list.master.currency@@valuta principale</sent>
+<sent>admin.currencies.list.set.as.master@@setta come valuta principale</sent>
+<sent>admin.currencies.master.currency@@principale</sent>
+<sent>admin.currencies.symbol.for.decimal.separator@@simbolo separatore decimale</sent>
+<sent>admin.currencies.symbol.for.groups.separator@@simbolo separatore gruppi</sent>
+<sent>admin.currencies.title.all.supported.currencies@@tutte le valute supportate</sent>
+<sent>admin.currencies.warning.insert.a.number.for.decimal.digits@@inserire un numero per quante cifre decimali visualizzare</sent>
+<sent>admin.currencies.warning.insert.a.number.for.exchange@@inserire numero per il cambio</sent>
+<sent>admin.currencies.warning.insert.name.of.currency@@inserire il nome della valuta</sent>
+<sent>admin.currencies.warning.insert.symbol.for.decimal.separator@@inserire il simbolo separatore decimale</sent>
+<sent>admin.currencies.where.you.are.currencies@@valute</sent>
+<sent>admin.currency.warning.must.set.another.master.currency.before.delete@@è necessario impostare un'altra valuta come valuta master; poi è possibile cancellare questa valuta</sent>
+<sent>admin.errorlog.whereyouare@@ultimi errori verificatisi</sent>
+<sent>admin.filter.button.filter@@FILTRA</sent>
+<sent>admin.filter.order.by@@ordina per</sent>
+<sent>admin.filter.search.in@@cerca in</sent>
+<sent>admin.filter.word.to.find@@termine</sent>
+<sent>admin.homepage.welcome.message@@messaggio di benvenuto</sent>
+<sent>admin.homepage.whereyouare.homepage@@homepage</sent>
+<sent>admin.label.administration.menu@@menù amministrazione</sent>
+<sent>admin.label.administration.menu.products@@prodotti</sent>
+<sent>admin.label.administration.menu.registered.users@@utenti registrati</sent>
+<sent>admin.layout.bottom.text@@piè di pagina</sent>
+<sent>admin.layout.layout@@layout</sent>
+<sent>admin.layout.products.per.page@@prodotti per pagina</sent>
+<sent>admin.layout.warning.insert.number.products.per.page@@inserisci un numero per gli articoli per pagina</sent>
+<sent>admin.layout.whereyouare.layout@@layout</sent>
+<sent>admin.menu.banner.left@@banner sulla sinistra</sent>
+<sent>admin.menu.empty.site@@svuota sito</sent>
+<sent>admin.menu.label.catalog@@catalogo</sent>
+<sent>admin.menu.label.categories.and.subcategories@@categorie e sottocategorie</sent>
+<sent>admin.menu.label.change.admin.password@@cambia password amministratore</sent>
+<sent>admin.menu.label.configuration@@configurazione</sent>
+<sent>admin.menu.label.currencies@@valute</sent>
+<sent>admin.menu.label.extra.pages@@pagine extra</sent>
+<sent>admin.menu.label.layout@@layout</sent>
+<sent>admin.menu.label.meta.tag@@meta tag</sent>
+<sent>admin.menu.label.newsletter@@newsletter</sent>
+<sent>admin.menu.label.open.close.shop@@apri/chiudi negozio</sent>
+<sent>admin.menu.label.others@@altro</sent>
+<sent>admin.menu.label.pages@@pagine</sent>
+<sent>admin.menu.label.pages.homepage@@homepage</sent>
+<sent>admin.menu.label.products@@prodotti</sent>
+<sent>admin.menu.label.registered.to.newsletter@@utenti registrati alla newsletter</sent>
+<sent>admin.menu.label.tax.settings@@parametri tasse</sent>
+<sent>admin.menu.label.web.site.parameters@@altri parametri</sent>
+<sent>admin.menu.label.restart.site@@riavvia sito</sent>
+<sent>admin.menu.label.additional.fields@@campi aggiuntivi in scheda prodotto</sent>
+<sent>admin.menu.info.requests@@richieste informazioni</sent>
+<sent>admin.menu.view.info.requests@@vedi richieste informazioni</sent>
+<sent>admin.menubar.disconnect@@disconnetti da amministratore</sent>
+<sent>admin.menubar.open.front.store@@apri lato negozio</sent>
+<sent>admin.message.changes.saved@@modifiche salvate</sent>
+<sent>admin.messages.message@@messaggio conferma ordina via email</sent>
+<sent>admin.messages.select.method.payment@@seleziona metodo di pagamento</sent>
+<sent>admin.messages.whereyouare.messages.of.order.confirmation@@messaggi di conferma ordine</sent>
+<sent>admin.metatag.for.search.engine@@per motori di ricerca </sent>
+<sent>admin.newletter.test.delivery.succesfull@@newsletter di prova inviata con successo alla email indicata</sent>
+<sent>admin.newsletter.1.email.successfull.sent@@1 email inviata con successo a</sent>
+<sent>admin.newsletter.1.email.unsuccessfull.sent@@1 email inviata SENZA SUCCESSO a</sent>
+<sent>admin.newsletter.all.sent@@INVIO CONCLUSO</sent>
+<sent>admin.newsletter.body@@corpo</sent>
+<sent>admin.newsletter.button.send.newsletter.to.users@@manda newsletter agli utenti</sent>
+<sent>admin.newsletter.button.send.test.newsletter@@manda newsletter di prova</sent>
+<sent>admin.newsletter.from@@da</sent>
+<sent>admin.newsletter.html.format@@formato html</sent>
+<sent>admin.newsletter.next.email@@la prossima email verrà inviata fra {0} secondi</sent>
+<sent>admin.newsletter.send.test.email@@manda la newsletter ad un indirizzo email di prova</sent>
+<sent>admin.newsletter.send.to.users@@manda newsletter</sent>
+<sent>admin.newsletter.send.to.users.registered.to.newsletter.from.box@@iscritti alla newsletter dal box newsletter</sent>
+<sent>admin.newsletter.send.to.users.registered.to.shop@@registrati al negozio</sent>
+<sent>admin.newsletter.started.delivery@@invio temporizzato delle email iniziato...</sent>
+<sent>admin.newsletter.subject@@soggetto</sent>
+<sent>admin.newsletter.test.email@@indirizzo di prova</sent>
+<sent>admin.newsletter.warning.insert.test.email@@inserisci email di prova</sent>
+<sent>admin.newsletter.wheryouare.newsletter@@newsletter</sent>
+<sent>admin.page.open.page@@apri pagina</sent>
+<sent>admin.page.reserved.to@@riservato a</sent>
+<sent>admin.page.reserved.to.all.users@@tutti gli utenti</sent>
+<sent>admin.page.reserved.to.registered.and.authorized.users@@solo utenti registrati che autorizzo dal menù utenti</sent>
+<sent>admin.page.reserved.to.registered.users@@solo utenti registrati</sent>
+<sent>admin.page.text@@testo</sent>
+<sent>admin.page.title@@titolo</sent>
+<sent>admin.page.whereyouare@@pagine extra</sent>
+<sent>admin.page.whereyouare.new@@nuova pagina</sent>
+<sent>admin.page.whereyouare.pages.in.menu.bar@@pagine elencate nella barra menù</sent>
+<sent>admin.pages.list.title@@titolo</sent>
+<sent>admin.pages.new@@nuova pagina</sent>
+<sent>admin.pages.warning.cannot.delete@@questa pagina non può essere cancellata</sent>
+<sent>admin.pages.whereyouare@@pagine extra</sent>
+<sent>admin.pages.whereyouare.pages.in.menu.bar@@pagine elencate nella barra menù</sent>
+<sent>admin.parameters.email@@email</sent>
+<sent>admin.parameters.site.name@@nome sito</sent>
+<sent>admin.parameters.whereyouare@@altri parametri</sent>
+<sent>admin.prices.discount.not.valid@@sconto listino {0} non valido</sent>
+<sent>admin.prices.discountorricharge@@ricarico o sconto</sent>
+<sent>admin.prices.please.correct@@correggi</sent>
+<sent>admin.prices.price.not.valid@@prezzo listino {0} non valido</sent>
+<sent>admin.prices.recharge.not.valid@@Il campo RICARICO{0} non è un numero valido.</sent>
+<sent>admin.prices.relatedto@@collegato al listino N.</sent>
+<sent>admin.product.zoom.select.file@@seleziona un file dall'hard disk</sent>
+<sent>admin.products.any@@qualsiasi</sent>
+<sent>admin.products.any.category@@qualsiasi categoria</sent>
+<sent>admin.products.butt.add.new@@aggiungi prodotto</sent>
+<sent>admin.products.butt.del.sel@@cancella selezionati</sent>
+<sent>admin.products.butt.sel.all@@seleziona tutti</sent>
+<sent>admin.products.butt.unsel.all@@deseleziona tutti</sent>
+<sent>admin.products.filter@@filtra prodotti</sent>
+<sent>admin.products.filter.availability@@disponibilità</sent>
+<sent>admin.products.filter.available.no@@no</sent>
+<sent>admin.products.filter.available.no.can.be.ordered@@no, può essere ordinato</sent>
+<sent>admin.products.filter.available.yes@@si</sent>
+<sent>admin.products.filter.button@@filtra</sent>
+<sent>admin.products.filter.by.code@@nel codice prodotto</sent>
+<sent>admin.products.filter.by.name@@nel nome</sent>
+<sent>admin.products.filter.dropdownlist.availability@@disponibilità</sent>
+<sent>admin.products.filter.label.belonging to category@@nella categoria</sent>
+<sent>admin.products.filter.label.show@@mostra</sent>
+<sent>admin.products.filter.lbl.order.by@@ordina per</sent>
+<sent>admin.products.filter.lbl.results.per.page@@risultati per pagina</sent>
+<sent>admin.products.filter.lbl.word@@contenenti la parola</sent>
+<sent>admin.products.filter.ordered.by.id@@ID prodotto</sent>
+<sent>admin.products.filter.ordered.by.name@@nome</sent>
+<sent>admin.products.filter.select.featured.products@@prodotti in evidenza</sent>
+<sent>admin.products.filter.select.invisible.products@@prodotti invisibili</sent>
+<sent>admin.products.filter.show.featured.products@@prodotti in evidenza in homepage</sent>
+<sent>admin.products.filter.show.invisible.products@@prodotti invisibili</sent>
+<sent>admin.products.label.results.per.page@@risultati per pagina</sent>
+<sent>admin.products.lbl.product.list@@lista prodotti</sent>
+<sent>admin.products.list.code@@codice</sent>
+<sent>admin.products.list.creation.date@@data creazione</sent>
+<sent>admin.products.list.delete@@elimina</sent>
+<sent>admin.products.list.edit@@modifica</sent>
+<sent>admin.products.list.id@@ID prodotto</sent>
+<sent>admin.products.list.image@@immagine</sent>
+<sent>admin.products.list.name@@nome</sent>
+<sent>admin.products.list.select@@seleziona</sent>
+<sent>admin.products.list.stock@@stock</sent>
+<sent>admin.products.max.allowed.characters.for.brand@@il campo Marca ha lunghezza massima di {0} caratteri</sent>
+<sent>admin.products.max.allowed.characters.for.code@@il campo codice ha lunghezza massima {0} caratteri</sent>
+<sent>admin.products.zoom.delete.image@@elimina</sent>
+<sent>admin.products.zoom.image@@immagine</sent>
+<sent>admin.products.zoom.image.id@@ID immagine</sent>
+<sent>admin.products.zoom.new.additional.image@@nuova immagine prodotto</sent>
+<sent>admin.registeredtonewsletter.list.confirmed@@confermata</sent>
+<sent>admin.registeredtonewsletter.list.email@@email</sent>
+<sent>admin.registeredtonewsletter.whereyouare.users.registered.to.newsletter@@utenti registrati alla newsletter</sent>
+<sent>admin.related.list.code@@codice</sent>
+<sent>admin.related.list.name@@nome</sent>
+<sent>admin.related.list.select@@seleziona</sent>
+<sent>admin.related.products@@prodotti</sent>
+<sent>admin.related.whereyouare.related.products@@prodotti correlati</sent>
+<sent>admin.smtp.email.for.authentication@@email per autenticazione</sent>
+<sent>admin.smtp.email.password.for.authentication@@password email per autenticazione</sent>
+<sent>admin.smtp.send@@INVIA</sent>
+<sent>admin.smtp.test.email.delivery@@test invio email</sent>
+<sent>admin.smtp.testok@@email di test inviata con successo</sent>
+<sent>admin.smtp.type.email@@digita indirizzo email a cui indirizzare l'email di prova</sent>
+<sent>admin.smtp.use.authentication@@usa autenticazione</sent>
+<sent>admin.smtp.wheryouare@@parametri per invio email dal sito</sent>
+<sent>admin.whereareyou.products@@prodotti</sent>
+<sent>admin_openclose.choose.closed@@chiuso</sent>
+<sent>admin_openclose.choose.open@@aperto</sent>
+<sent>admin_openclose.label.message.for.closed.shop@@messaggio per negozio chiuso</sent>
+<sent>admin_openclose.label.open.closed.shop@@negozio chiuso/aperto</sent>
+<sent>admin_openclose.menu.bar.open.close.shop@@apri/chiudi negozio</sent>
+<sent>admin_pass.button.change.password@@CAMBIA PASSWORD</sent>
+<sent>admin_pass.char.not.allowed@@la password amministrativa puo contenere solo lettere e numeri</sent>
+<sent>admin_pass.error.max.length.is@@lunghezza massima consentita è di {0} caratteri</sent>
+<sent>admin_pass.error.password.and.repeat.password.different@@PASSWORD and REPEAT PASSWORD non coincidenti. la password non è stata cambiata</sent>
+<sent>admin_pass.error.wrong.old.password@@vecchia password errata. la password non può essere cambiata</sent>
+<sent>admin_pass.label.change.password@@cambio password amministratore</sent>
+<sent>admin_pass.label.new.password@@nuova password</sent>
+<sent>admin_pass.label.old.password@@vecchia password</sent>
+<sent>admin_pass.label.repeat.new.password@@ripeti nuova password</sent>
+<sent>admin_pass.password.modified@@password modificata.</sent>
+<sent>admin_showpricesvatincluded.error.not.ue.merchant@@sembra che il merchant non appartenga ad un paese EU</sent>
+<sent>admin_showpricesvatincluded.label.show.dropdownlist.for.tax.included.excluded@@mostra menù a tendina per consentire all'utente di scegliere i prezzi tassa inclusa o esclusa</sent>
+<sent>admin_taxes.show.prices.vat.included@@mostra i prezzi tasse incluse</sent>
+<sent>admin_taxes.tax.name@@nome della tassa</sent>
+<sent>admin_taxes.tax.rate@@aliquota tassa</sent>
+<sent>admin_taxprofile.barmenu.you.are.here.tax.profiles@@profili tasse</sent>
+<sent>admin_taxprofiles.linkbutton.changetaxprofilename@@cambia nome profilo</sent>
+<sent>admin.where.you.are.page.with.id@@pagina con ID</sent>
+<sent>admin.smtp.to.test.email@@A EMAIL</sent>
+<sent>admin.smtp.from.test.email@@DA EMAIL</sent>
+<sent>admin.smtp.type.from.test.email@@digitare DA EMAIL</sent>
+<sent>admin.smtp.type.to.test.email@@digitare A EMAIL</sent>
+<sent>admin.taxprofile.list.rate.for.firm@@aliquota per compratore impresa</sent>
+<sent>admin.taxprofile.list.rate.for.privates@@aliquota per compratore privato (non impresa)</sent>
+<sent>admin.newsletter.send.to.test.email@@A EMAIL</sent>
+<sent>admin.newsletter.type.to.test.email@@digita A EMAIL</sent>
+<sent>admin.product.leave.field.empty.to.not.to.show@@lasciare il campo vuoto per non visualizzare affatto questo campo nella scheda prodotto</sent>
+<sent>admin.product.type.minus.one.to.not.to.show@@digitare -1 come prezzo per non visualizzare affatto il prezzo di questo prodotto</sent>
+<sent>admin.additional.field.new.additional.field@@nuovo campo aggiuntivo in scheda prodotto</sent>
+<sent>admin.additional.field.name.of.additional.field@@nome del campo aggiuntivo</sent>
+<sent>admin.additional.field.text.of.additional.field@@testo</sent>
+<sent>admin.product.images.move.up@@sposta su</sent>
+<sent>admin.product.images.move.down@@sposta giu</sent>
+<sent>admin.product.where.you.are.main.features@@caratteristiche principali</sent>
+<sent>admin.product.main.image@@immagine principale</sent>
+<sent>admin.product.other.images.new@@nuova immagine</sent>
+<sent>admin.product.main.image.description@@descrizione immagine</sent>
+<sent>admin.product.other.images.image.description@@descrizione immagine</sent>
+<sent>admin.product.other.images.select.image@@seleziona immagine</sent>
+<sent>admin.product.main.image.select.image@@seleziona immagine</sent>
+<sent>admin.product.main.image.save.image@@salva immagine</sent>
+<sent>admin.product.main.image.save.desc@@salva descrizione</sent>
+<sent>admin.product.insert.additional.fields@@campi aggiuntivi</sent>
+<sent>admin.product.metatag@@metatag per motori di ricerca</sent>
+<sent>admin.product.metatag.description@@metatag description</sent>
+<sent>admin.product.metatag.keywords@@metatag keywords</sent>
+<sent>admin.image.category.missing@@scegliere un'immagine per la categoria</sent>
+<sent>admin.categories.alert.category.has.children@@questa categoria ha categorie figlie; è necessario cancellare prima le categorie figlie.</sent>
+<sent>admin.category.metakeywords@@metatag keywords per motori di ricerca</sent>
+<sent>admin.site.restared@@sito riavviato</sent>
+<sent>admin.site.restarted@@sito riavviato</sent>
+<sent>admin.info.requests@@richieste informazioni</sent>
+<sent>admin.requests.date@@data</sent>
+<sent>admin.requests.subject@@oggetto</sent>
+<sent>admin.requests.name@@nomr</sent>
+<sent>admin.requests.email@@email</sent>
+<sent>admin.requests.body@@corpo messaggio</sent>
+<sent>admin.warning.cookies.policy.page@@Questa pagina non dovrebbe esssere cancellata perchè un link a tale pagina è presente nel banner privacy popup relativo a tale pagina. Sei sicuro di voler cancellare questa pagina?</sent>
+<sent>admin.warning.contact.page@@Questa pagina contiene il modulo contatti. Sei sicuro di volerla eliminare?</sent>

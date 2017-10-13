@@ -1,0 +1,30 @@
+﻿
+OleDbConnection cnn = new OleDbConnection(System.Configuration.ConfigurationManager.ConnectionStrings["strcnn"].ToString());
+
+var query = dtcombo.AsEnumerable()
+.Where(row => row.Field<string>("stopz_idoption1") == art.Variations[0].Opzioni[rip].Text);
+
+string[] delimiter = { "__" };
+string[] parameters = stringa.Split(delimiter, System.StringSplitOptions.None);
+
+
+            OleDbConnection cnn = new OleDbConnection(System.Configuration.ConfigurationManager.ConnectionStrings["strcnn"].ConnectionString);
+            OleDbDataAdapter da;
+            cnn.Open();
+            string sql = "select cat_id, cat_idpadre, cat_nome, cat_livello, cat_img from tcategorie";
+            OleDbCommand cmd = new OleDbCommand(sql, cnn);
+            da = new OleDbDataAdapter(cmd);
+            DataSet ds = new DataSet();
+            da.Fill(ds);
+            cnn.Close();
+            cnn.Dispose();
+
+using ( OleDbConnection cnn = new OleDbConnection(System.Configuration.ConfigurationManager.ConnectionStrings["strcnn"].ConnectionString) )
+{
+
+}
+
+
+asc.common.jquerymodalmessage(this.Page, asc.language.getforadminfromdictionary(""));
+
+border-spacing:0;border-collapse:collapse;padding: 0

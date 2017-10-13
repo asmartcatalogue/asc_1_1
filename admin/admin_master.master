@@ -1,0 +1,147 @@
+﻿<%--  
+    Copyright (C) 2017 Maurizio Ferrera
+ 
+    This file is part of asmartcatalogue
+
+    asmartcatalogue is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    asmartcatalogue is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with asmartcatalogue.  If not, see <http://www.gnu.org/licenses/>.
+--%>
+
+<%@ Master Language="C#" %>
+
+<%@ Import Namespace="System.Globalization" %>
+<%@ Import Namespace="System.IO" %>
+<%@ Import Namespace="System.Threading" %>
+
+<script runat="server">
+
+    void Page_Init()
+    {
+
+        asc.other.RestartIfLanguagesHaveChanges();
+
+        CultureInfo modified = new CultureInfo(Thread.CurrentThread.CurrentCulture.Name);
+        Thread.CurrentThread.CurrentCulture = modified;
+        modified.NumberFormat = asc.admin.localization.primarynumberformatinfo;
+
+        inheadtag.Text =
+
+inheadtag.Text =
+"<script type='text/javascript' src='" + ResolveUrl("~/js/jquery.min.js") + "'>" + "</scr" + "ipt>" + "\n"+
+
+
+"<script type='text/javascript' src='../tinymce/js/tinymce/tinymce.min.js'></scr" + "ipt>" +
+"<link href='" + ResolveUrl("~/css/mytinyeditor.css") + "' rel='stylesheet' />" + "\n"+
+
+        "<link rel='stylesheet' href='" + ResolveUrl("~/css/admin_struttura.css") + "' type='text/css' />" + "\n";
+
+
+
+
+
+    }
+
+
+</script>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta http-equiv="Page-Enter" content="RevealTrans(Duration=0,Transition=0)" />
+    <title>ADMINISTRATION</title>
+    <asp:Literal runat="server" ID="inheadtag" />
+    <script>
+        tinymce.init({
+            selector: "textarea",
+            theme: "modern",
+            width: '100%',
+            height: 240,
+            plugins: [
+                 "advlist autolink link image lists charmap print preview hr anchor pagebreak spellchecker",
+                 "searchreplace wordcount visualblocks visualchars code fullscreen insertdatetime media nonbreaking",
+                 "save table contextmenu directionality emoticons template paste textcolor"
+            ],
+            content_css: "../css/mytinyeditor.css",
+            toolbar: "insertfile undo redo | styleselect | bold italic | alignleft aligncenter alignright alignjustify | bullist numlist outdent indent | l      ink image | print preview media fullpage | forecolor backcolor emoticons",
+            style_formats: [
+                 { title: 'XX-Large', inline: 'span', classes: 'myxxlarge' },
+                 { title: 'X-Large', inline: 'span', classes: 'myxlarge' },
+                 { title: 'Large', inline: 'span', classes: 'mylarge' },
+                 { title: 'Medium', inline: 'span', classes: 'mymedium' },
+                 { title: 'Small', inline: 'span', classes: 'mysmall' },
+                 { title: 'Smaller', inline: 'span', classes: 'mysmaller' },
+                 { title: 'Bold text', inline: 'b' },
+                 { title: 'Red text', inline: 'span', styles: { color: '#ff0000' } },
+                 { title: 'Red header', block: 'h1', styles: { color: '#ff0000' } },
+                 { title: 'Example 1', inline: 'span', classes: 'example1' },
+                 { title: 'Example 2', inline: 'span', classes: 'example2' },
+                 { title: 'Table styles' },
+                 { title: 'Table row 1', selector: 'tr', classes: 'tablerow1' }
+            ]
+        });
+    </script>
+
+
+    <asp:ContentPlaceHolder runat="server" ID="headcontent" />
+</head>
+
+<body>
+
+        <table id="modaltable">
+            <tr>
+                <td align="center">
+                        <table style="border: solid 3px #0094ff; background-color: #fff; opacity: 0.99; filter: alpha(opacity=99); border-spacing: 0; border-collapse: collapse; padding: 3px; margin: 3px">
+                            <tr>
+                                <td style="padding:22px">
+                                        <div style = 'text-align:right'><input type = 'button' id = 'buttclosemodal' value = ' CLOSE ' style = 'border: solid 1px #bbb; margin: 4px; background-color: #0094ff; color: white'; onclick="$('#modaltable').hide(); jQuery('#maintable').css('opacity', '1'); return false" /></div>
+                                        <div id="modalid"></div>
+
+                                </td>
+                            </tr>
+                        </table>
+                </td>
+            </tr>
+        </table>
+
+
+    <table cellpadding="0" cellspacing="0" align="center" id="maintable" border="0">
+        <tr>
+            <td>
+
+                <table id="tablemenubaradmin" cellpadding="0" cellspacing="0">
+                     <tr>
+                        <td>&nbsp;</td>
+                        <td height="20">
+                            <asp:Label runat="server" ID="lbldove" />
+                        </td>
+                        <td></td>
+                    </tr>
+                   <tr>
+                        <td></td>
+                        <td></td>
+                        <td style="height: 20px; text-align: right;" nowrap><a href="admin_logout.aspx" class="top"><%=asc.language.getforadminfromdictionary("admin.menubar.disconnect")%></a>&nbsp;&nbsp;&nbsp;&nbsp;<a target="_blank" runat="server" href="~/shop/main.aspx" class="top" style="color: yellow"><%=asc.language.getforadminfromdictionary("admin.menubar.open.front.store") %></a>&nbsp;</td>
+                    </tr>
+
+
+                </table>
+
+                <asp:ContentPlaceHolder runat="server" ID="partecentrale"></asp:ContentPlaceHolder>
+
+            </td>
+        </tr>
+    </table>
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,244 @@
+﻿<%--  
+    Copyright (C) 2017 Maurizio Ferrera
+ 
+    This file is part of asmartcatalogue
+
+    asmartcatalogue is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    asmartcatalogue is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with asmartcatalogue.  If not, see <http://www.gnu.org/licenses/>.
+--%>
+
+
+<%@ Master Language="C#" CodeFile="~/shop/masterpage.master.cs" Inherits="MasterPageClass" EnableViewState="true" ViewStateMode="Disabled" %>
+
+<%@ Register TagPrefix="asmartcatalogue" TagName="maincategories" Src="uccategorie.ascx" %>
+<%@ Register TagPrefix="asmartcatalogue" TagName="lastseenproducts" Src="~/shop/uclastseenproducts.ascx" %>
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" id="mainhtml" runat="server">
+
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="Page-Enter" content="RevealTrans(Duration=0,Transition=0)" />
+    <asp:Literal runat="server" ID="inheadtag" />
+    <asp:ContentPlaceHolder runat="server" ID="headerpart" />
+
+
+
+</head>
+
+<body id="mybody" runat="server">
+
+    <form runat="server">
+        <asp:ScriptManager EnablePartialRendering="true" ID="ScriptManager1" runat="server"></asp:ScriptManager>
+
+        <table id="modaltable">
+            <tr>
+                <td align="center">
+                        <table style="border: solid 3px #0094ff; background-color: #fff; opacity: 0.99; filter: alpha(opacity=99); border-spacing: 0; border-collapse: collapse; padding: 3px; margin: 3px">
+                            <tr>
+                                <td style="padding:22px">
+                                        <div style = 'text-align:right'><input type = 'button' id = 'buttclosemodal' value = ' CLOSE ' style = 'border: solid 1px #bbb; margin: 4px; background-color: #0094ff; color: white'; onclick="$('#modaltable').hide(); jQuery('#maintable').css('opacity', '1'); return false" /></div>
+                                        <div id="modalid"></div>
+
+                                </td>
+                            </tr>
+                        </table>
+                </td>
+            </tr>
+        </table>
+
+        <table id="maintable1" border="0">
+
+            <tr><td class="maintable1td1space"></td><td class="maintable1td2space"></td><td class="maintable1td3space"></td></tr>
+
+            <tr><td class="maintable1td1"></td><td class="maintable1td2"></td><td class="maintable1td3"></td></tr>
+            <tr>
+                <td class="maintable1td1bis"></td>
+                <td class="maintable1td2bis">
+            <table id="maintable2" border="0">
+
+            <tr>
+                <td colspan="5" style="height: 30px">
+                    <table style="width: 100%">
+                        <tr>
+                            <td style="vertical-align:bottom; padding: 4px; background-color: #bbb; height: 120px"><a id="linksitename" runat="server" class="sitename"><%=Application["config_nomesito"].ToString()%></a>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="5" style="height: 1px; background-color: #f6f6f6"></td>
+            </tr>
+
+            <tr>
+                <td colspan="5" style="height: 10px">&nbsp;</td>
+            </tr>
+
+
+
+            <tr>
+                <td class="col1"></td>
+                <td class="col2">
+
+
+                    <asmartcatalogue:maincategories runat="server" EnableViewState="true" ViewStateMode="Disabled" />
+
+                    <div style="font-size: 0px; height: 16px"></div>
+                    <%=asc.language.getforfrontfromdictionaryincurrentlanguage("inallthepages.choose.language")%>
+                    <asp:Label runat="server" ID="lbllanguages" />
+
+                    <div style="font-size: 0px; height: 16px"></div>
+                    <%=asc.language.getforfrontfromdictionaryincurrentlanguage("inallthepages.choose.currency")%><br />
+                    <asp:Label runat="server" ID="lblcurrencies" />
+
+                    <div style="font-size: 0px; height: 16px"></div>
+
+
+
+
+                    <!-- other pages -->
+                    <table width="100%">
+                        <tr>
+                            <td>
+                                <%=asc.language.getforfrontfromdictionaryincurrentlanguage("inallthepages.menu.pages")%></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <a href='<%=ResolveUrl("~/shop/main.aspx")%>'>Homepage</a>
+                            </td>
+                        </tr>
+                        <asp:Repeater runat="server" ID="dlistotherpages" OnItemDataBound="itempagine_databound">
+                            <ItemTemplate>
+                                <tr>
+                                    <td>
+                                        <a runat="server" id="anchor" />
+                                    </td>
+                                </tr>
+                            </ItemTemplate>
+                        </asp:Repeater>
+                    </table>
+                    <!-- end other pages -->
+
+
+
+
+
+
+
+
+
+
+
+
+                    <asp:PlaceHolder runat="server" ID="pholderbanner" Visible="false">
+                        <div style="font-size: 0px; height: 16px"></div>
+                        <asp:Literal runat="server" ID="literalleftbanner" />
+                    </asp:PlaceHolder>
+
+
+                    <div style="font-size: 0px; height: 16px"></div>
+                    <table cellspacing="0" cellpadding="0" class="tablebox">
+                        <tr>
+                            <td class="titolobox">
+                                <%=asc.language.getforfrontfromdictionaryincurrentlanguage("inallthepages.menu.search")%>
+                            </td>
+                        </tr>
+
+                        <asp:Panel ID="Panel1" runat="server" DefaultButton="buttCerca">
+                            <tr>
+                                <td valign="top" align="left" class="contenutobox">
+                                    <asp:TextBox
+                                        EnableViewState="true" ViewStateMode="Enabled"
+                                        onFocus="this.value=''"
+                                        autocomplete="off"
+                                        ID="tBoxSearch"
+                                        Width="142"
+                                        runat="server"
+                                        Style="font-size: 11px; border: solid 1px #bbb" />
+                                </td>
+                                <td width="2"></td>
+                                <td valign="top">
+                                    <asp:ImageButton
+                                        ID="buttCerca"
+                                        OnClick="buttCerca_click"
+                                        runat="server"
+                                        Height="19"
+                                        ImageUrl="~/icons/table_sql_view.gif"
+                                        EnableViewState="true" ViewStateMode="Enabled" />
+                                </td>
+                            </tr>
+                        </asp:Panel>
+                    </table>
+                    <div style="font-size: 0px; height: 16px"></div>
+
+                    <asmartcatalogue:lastseenproducts runat="server" EnableViewState="true" ViewStateMode="Disabled" />
+
+
+                </td>
+                <td class="col3"></td>
+                <td class="col4">
+
+                    <div><%=asc.language.getforfrontfromdictionaryincurrentlanguage("inallthepages.you.are.here") %>:&nbsp;<asp:Label ID="lblbreadcrumbs" runat="server" /></div>
+
+
+                    <p></p>
+
+                    <asp:ContentPlaceHolder ID="parteCentrale" runat="server" EnableViewState="false" ViewStateMode="disabled" />
+
+
+                </td>
+                <td class="col5">&nbsp;</td>
+            </tr>
+
+
+            <tr>
+                <td colspan="5" style="height: 8px">
+                    <div id="dialog" style="display: none"></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td colspan=5 valign="bottom">
+                    <div id="footer" runat="server" clientidmode="static"></div> 
+                </td>
+            </tr>
+
+
+
+        </table>
+
+                </td>
+                <td class="maintable1td3bis"></td>
+</tr>
+            <tr><td class="maintable1td1tris"></td><td class="maintable1td2tris"></td><td class="maintable1td3tris"></td></tr>
+            <tr><td class="maintable1td1space"></td><td class="maintable1td2space"></td><td class="maintable1td3space"></td></tr>
+
+        </table>
+
+
+
+
+        <asp:UpdatePanel runat="server">
+            <ContentTemplate>
+                <asp:Timer ID="timer1" runat="server" Interval="30000"  />
+            </ContentTemplate>
+        </asp:UpdatePanel>
+
+
+
+    </form>
+</body>
+</html>
+
